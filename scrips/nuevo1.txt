@@ -1,0 +1,17 @@
+Creación de un entorno en Anaconda
+	conda create -n CA_PRUEBAS
+Activar el entorno para comenzar a trabajar
+	conda activate CA_PRUEBAS
+INSTALACIÓN DE PYTHON EN EL ENTORNO CREADO PARA TRABAJAR EN ESTE CASO A RECOMENDACIÓN DEL EXPERTO SERÁ 3.8
+	conda install python=3.8
+INSTALACIÓN DE LAS LIBRERIAS NECESARIAS PARA CORRER EL ANÁLISIS DE AUTOMATAS CELULARES
+	conda install os
+	conda install -c conda-forge numpy
+	conda install -c conda-forge gdal
+	conda install -c conda-forge math
+INSTALACIÓN DE JUPYTER CON TODAS LAS DEPENDENCIAS
+	conda install -c conda-forge jupyterhub 
+	conda install -c jupyterlab 
+	conda install -c conda-forge nodejs 
+	conda install -c conda-forge nb_conda_kernels
+
